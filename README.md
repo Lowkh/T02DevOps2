@@ -1,4 +1,4 @@
 # T02DevOps2
 
-smt
+This is from Verity
 
