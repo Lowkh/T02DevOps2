@@ -1,5 +1,9 @@
 #!/bin/sh
 
-for i in $(seq -w 1 5); do 
+branchNo = 5
+
+for i in $(seq -w 1 $branchNo); do 
     git branch hi-$1
 done
+
+git push --force
